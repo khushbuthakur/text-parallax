@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+
+<html class="no-js">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Fixed Footer</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+
+      section {
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        padding: 100px;
+        z-index: 10;
+        box-sizing: border-box;
+        background: #fff;
+      }
+
+      section img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+      }
+
+      section h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 4em;
+      }
+
+      section p {
+        font-size: 1.2em;
+      }
+
+      .fixed-footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+        background: rgb(119, 112, 112);
+        color: gainsboro;
+        font-size: 7em;
+        text-transform: uppercase;
+      }
+
+      .marginForFixedItem {
+        margin-bottom: 400px;
+      }
+
+      @media (max-width: 992px) {
+        section {
+          padding: 10px;
+        }
+
+        section h2 {
+          font-size: 2em;
+        }
+
+        section p {
+          font-size: 0.8em;
+        }
+
+        .fixed-footer {
+          font-size: 2em;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <img src="./1.jpg" />
+    </section>
+
+    <section class="marginForFixedItem">
+      <h2>Some random title of six words</h2>
+
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sodales
+        elit neque, ac hendrerit ligula mollis non. Ut sit amet lobortis neque.
+        Ut velit est, fringilla sit amet interdum ut, vestibulum in odio. Duis
+        vulputate faucibus hendrerit. Duis non mauris porta orci pretium finibus
+        eget non est. Phasellus metus dui, fringilla id elit ac, pulvinar luctus
+        tortor. Duis ornare nec quam ac tempor.
+      </p>
+      <p>
+        Donec vehicula accumsan ornare. Praesent eget ante sodales, consectetur
+        nulla vitae, convallis est. Vestibulum varius eros sit amet elit
+        molestie, a ultrices nunc sodales. Maecenas lacinia cursus metus, sit
+        amet iaculis eros sodales vitae. Aliquam erat volutpat. Donec et orci
+        mollis, pretium tortor vulputate, rutrum nibh. Phasellus hendrerit
+        gravida leo ut aliquet. Praesent bibendum rutrum quam, vitae tempus
+        magna tempor vel. In facilisis sapien enim, sit amet vehicula odio
+        eleifend a. Donec tempus, est ut porttitor efficitur, purus erat
+        bibendum ligula, id efficitur quam quam nec elit. Nullam dictum placerat
+        quam, sagittis feugiat ex accumsan non. Curabitur fringilla, nisl nec
+        gravida ornare, nibh velit posuere nunc, in scelerisque nulla velit sed
+        ipsum. Ut varius id magna at dignissim.
+      </p>
+      <p>
+        Suspendisse a ultrices libero, ac molestie dolor. Integer aliquam ut
+        eros in tristique. Proin interdum porta lorem tempor blandit. Etiam
+        posuere massa id mauris viverra malesuada. Pellentesque rhoncus
+        tristique lectus ut euismod. Nunc nunc neque, mollis vel orci eget,
+        congue maximus tortor. Curabitur mollis purus vel sodales fringilla.
+        Duis pellentesque arcu vitae lacus commodo finibus. Morbi est quam,
+        cursus iaculis tristique tincidunt, vehicula et neque. Nam vulputate
+        vulputate lacinia. Vivamus eget lorem dignissim, porta mi ut, sodales
+        orci. Praesent bibendum id metus id gravida.
+      </p>
+
+      <p>
+        Suspendisse a ultrices libero, ac molestie dolor. Integer aliquam ut
+        eros in tristique. Proin interdum porta lorem tempor blandit. Etiam
+        posuere massa id mauris viverra malesuada. Pellentesque rhoncus
+        tristique lectus ut euismod. Nunc nunc neque, mollis vel orci eget,
+        congue maximus tortor. Curabitur mollis purus vel sodales fringilla.
+        Duis pellentesque arcu vitae lacus commodo finibus. Morbi est quam,
+        cursus iaculis tristique tincidunt, vehicula et neque. Nam vulputate
+        vulputate lacinia. Vivamus eget lorem dignissim, porta mi ut, sodales
+        orci. Praesent bibendum id metus id gravida. Integer hendrerit cursus
+        tincidunt. Vestibulum cursus massa purus, nec faucibus est dictum eget.
+        Curabitur sit amet est et dolor imperdiet posuere et quis lectus. Sed
+        finibus, mi at ultrices elementum, tortor metus malesuada sapien,
+        tristique eleifend neque ante ac est. Vivamus pellentesque commodo
+        posuere. Mauris condimentum diam vitae diam porta condimentum.
+      </p>
+      <p>
+        Proin ultrices massa semper, malesuada velit nec, interdum justo. Sed
+        vulputate ligula vitae venenatis volutpat. Curabitur a massa vitae lacus
+        dapibus fermentum. Phasellus suscipit justo lacus, vel imperdiet felis
+        rutrum a. Nullam facilisis, nisi a ultricies consectetur, urna ligula
+        dignissim ante, in sodales eros velit eget elit. Praesent aliquet
+        egestas odio, id sodales dui efficitur vel. Maecenas aliquet mi id
+        rhoncus volutpat. In mi arcu, consectetur sit amet pharetra quis,
+        fringilla vel lorem. Integer dolor ex, sollicitudin nec nunc in,
+        ultrices varius mauris. Suspendisse auctor semper nunc, eget euismod
+        augue dapibus sed. Ut varius tortor tellus, ut volutpat augue cursus in.
+        Aliquam erat volutpat. Phasellus vitae augue laoreet, venenatis lacus
+        sit amet, pellentesque lacus. Phasellus vel sem varius, congue neque at,
+        venenatis nisl. Aenean in nibh ex. Orci varius natoque penatibus et
+        magnis dis parturient montes, nascetur ridiculus mus.
+      </p>
+      <p>
+        Orci varius natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Phasellus id tristique tellus.
+      </p>
+    </section>
+
+    <footer class="fixed-footer">
+      <img src="./img.jpg" />
+    </footer>
+
+    <section>
+      <img src="./1.jpg" />
+    </section>
+  </body>
+</html>
